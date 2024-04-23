@@ -1,0 +1,87 @@
+/* Qrcode.css */
+
+/* Styles for desktop and larger screens */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: aqua;
+    margin-top:50px;
+  }
+  
+  .subcontainer {
+    border: 1px solid #ccc;
+    padding: 20px;
+    padding-bottom:200px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .mt-5 {
+    margin-top: 5px;
+  }
+  
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .subcontainer-Generate {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Media query for mobile devices */
+  
+  @media (max-width: 576px) {
+    /* Apply styles only for screens up to 576px (typically mobile devices) */
+  
+    .container {
+      padding: 10px;
+    }
+  
+    .subcontainer {
+      padding: 10px;
+    }
+  
+    .mt-5 {
+      margin-top: 10px;
+    }
+  
+    .mx-auto {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .d-flex {
+      display: block;
+    }
+  
+    .form-control {
+      width: calc(100% - 20px);
+    }
+  
+    .subcontainer-Generate {
+      flex-direction: column;
+    }
+  
+    #button1,
+    #button2 {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+  
